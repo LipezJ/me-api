@@ -1,0 +1,61 @@
+{
+    "project_1": {
+        "name": "socket-server",
+        "description": "Socket server to handle functions and data on both server and client",
+        "languajes": [
+            "Python"
+        ],
+        "links": {
+            "github": "https://github.com/LipezJ/socket-server"
+        },
+        "image": "https://raw.githubusercontent.com/LipezJ/socket-server/master/img/socket-server.png"
+    },
+    "project_2": {
+        "name": "jv",
+        "description": "Compile and run java with a single line",
+        "languajes": [
+            "C"
+        ],
+        "links": {
+            "github": "https://github.com/LipezJ/jv"
+        },
+        "image": "https://raw.githubusercontent.com/LipezJ/socket-server/master/img/socket-server.png"
+    },
+    "project_3": {
+        "name": "pong-online",
+        "description": "Pong multiplayer on the terminal",
+        "languajes": [
+            "JavaScript",
+            "Python"
+        ],
+        "links": {
+            "github": "https://github.com/LipezJ/pong-online",
+            "github-api": "https://api.github.com/LipezJ/ApiPong"
+        },
+        "image":"https://raw.githubusercontent.com/LipezJ/socket-server/master/img/socket-server.png"
+    },
+    "project_4": {
+        "name": "chat-online",
+        "description": "Chat online with socket.io",
+        "languajes": [
+            "JavaScript"
+        ],
+        "links": {
+            "github": "https://github.com/LipezJ/chat-online",
+            "github-api": "https://github.com/LipezJ/chat-interface"
+        },
+        "image":"https://raw.githubusercontent.com/LipezJ/socket-server/master/img/socket-server.png"
+    },
+    "project_5": {
+        "name": "pong",
+        "description": "Pong game in a terminal",
+        "languajes": [
+            "Python",
+            "C++"
+        ],
+        "links": {
+            "github": "https://github.com/LipezJ/pong"
+        },
+        "image":"https://raw.githubusercontent.com/LipezJ/socket-server/master/img/socket-server.png"
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "melipez_api",
+  "version": "1.0.0",
+  "description": "api for lipez.studio",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "@lipezj",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  },
+  "type": "module"
+}
