@@ -1,61 +1,61 @@
 {
     "project_1": {
         "name": "socket-server",
-        "description": "Socket server to handle functions and data on both server and client",
-        "languajes": [
-            "Python"
+        "description": "Socket server to handle functions and data on both server and client.",
+        "languages": [
+            "python"
         ],
         "links": {
-            "github": "https://github.com/LipezJ/socket-server"
+            "repo": "https://github.com/LipezJ/socket-server"
         },
-        "image": "https://raw.githubusercontent.com/LipezJ/socket-server/master/img/socket-server.png"
+        "image": "http://127.0.0.1:4000/img/socket-server"
     },
     "project_2": {
-        "name": "jv",
-        "description": "Compile and run java with a single line",
-        "languajes": [
-            "C"
+        "name": "chat-online",
+        "description": "Chat online with socket.io.",
+        "languages": [
+            "javascript"
         ],
         "links": {
-            "github": "https://github.com/LipezJ/jv"
+            "repo": "https://github.com/LipezJ/chat-online",
+            "api": "https://github.com/LipezJ/chat-interface",
+            "page": "https://chat.lipez.studio"
         },
-        "image": "https://raw.githubusercontent.com/LipezJ/socket-server/master/img/socket-server.png"
+        "image":"http://127.0.0.1:4000/img/chat-online"
     },
     "project_3": {
-        "name": "pong-online",
-        "description": "Pong multiplayer on the terminal",
-        "languajes": [
-            "JavaScript",
-            "Python"
+        "name": "jv",
+        "description": "Compile and run java with a single line.",
+        "languages": [
+            "c"
         ],
         "links": {
-            "github": "https://github.com/LipezJ/pong-online",
-            "github-api": "https://api.github.com/LipezJ/ApiPong"
+            "repo": "https://github.com/LipezJ/jv"
         },
-        "image":"https://raw.githubusercontent.com/LipezJ/socket-server/master/img/socket-server.png"
+        "image": "http://127.0.0.1:4000/img/jv"
     },
     "project_4": {
-        "name": "chat-online",
-        "description": "Chat online with socket.io",
-        "languajes": [
-            "JavaScript"
+        "name": "pong-online",
+        "description": "Pong multiplayer on the terminal.",
+        "languages": [
+            "python",
+            "javascript"
         ],
         "links": {
-            "github": "https://github.com/LipezJ/chat-online",
-            "github-api": "https://github.com/LipezJ/chat-interface"
+            "repo": "https://github.com/LipezJ/pong-online",
+            "api": "https://github.com/LipezJ/ApiPong"
         },
-        "image":"https://raw.githubusercontent.com/LipezJ/socket-server/master/img/socket-server.png"
+        "image":"http://127.0.0.1:4000/img/pong-online"
     },
     "project_5": {
         "name": "pong",
-        "description": "Pong game in a terminal",
-        "languajes": [
-            "Python",
-            "C++"
+        "description": "Pong game in a terminal.",
+        "languages": [
+            "python"
         ],
         "links": {
-            "github": "https://github.com/LipezJ/pong"
+            "repo": "https://github.com/LipezJ/pong"
         },
-        "image":"https://raw.githubusercontent.com/LipezJ/socket-server/master/img/socket-server.png"
+        "image":"http://127.0.0.1:4000/img/pong"
     }
 }

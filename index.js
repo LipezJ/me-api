@@ -13,9 +13,11 @@ app.use(cors());
 app.get("/projects", (req, res) => {
     return res.json(JSON.parse(fs.readFileSync(path.join(process.cwd() + "/public/data/projects.json"), 'utf8')));
 });
-
 app.get("/profileimg", (req, res) => {
     return res.sendFile(path.join(process.cwd() + "/public/img/me_profile.jpg"));
+});
+app.get("/img/:name", (req, res) => {
+    return res.sendFile(path.join(process.cwd() + "/public/img/" + req.params.name + ".png"));
 });
 
 server.listen(process.env.PORT || 4000);
