@@ -20,4 +20,4 @@ app.get("/img/:name", (req, res) => {
     return res.sendFile(path.join(process.cwd() + "/public/img/" + req.params.name + ".png"));
 });
 
-server.listen(process.env.PORT || 4000);
+server.listen(process.env.PORT || 4000, () => console.log("Server is running..."));
