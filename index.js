@@ -13,6 +13,9 @@ app.use(cors());
 app.get("/projects", (req, res) => {
     return res.json(JSON.parse(fs.readFileSync(path.join(process.cwd() + "/public/data/projects.json"), 'utf8')));
 });
+app.get("/links", (req, res) => {
+    return res.json(JSON.parse(fs.readFileSync(path.join(process.cwd() + "/public/data/links.json"), 'utf8')));
+});
 app.get("/profileimg", (req, res) => {
     return res.sendFile(path.join(process.cwd() + "/public/img/me_profile.jpg"));
 });
