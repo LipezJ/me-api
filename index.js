@@ -1,8 +1,9 @@
 import express from "express";
 import cors from "cors";
 import http from "http";
-import path from 'path';
-import fs from 'fs';
+import frontMatter from 'front-matter';
+
+import { searchReq, blogListReq, blogReq, imgReq, jsonReq } from "./routes/routes.js";
 
 const app = express();
 const server = http.createServer(app);
@@ -10,17 +11,11 @@ const server = http.createServer(app);
 app.use(express.static("public"));
 app.use(cors());
 
-app.get("/projects", (req, res) => {
-    return res.json(JSON.parse(fs.readFileSync(path.join(process.cwd() + "/public/data/projects.json"), 'utf8')));
-});
-app.get("/links", (req, res) => {
-    return res.json(JSON.parse(fs.readFileSync(path.join(process.cwd() + "/public/data/links.json"), 'utf8')));
-});
-app.get("/profileimg", (req, res) => {
-    return res.sendFile(path.join(process.cwd() + "/public/img/me_profile.jpg"));
-});
-app.get("/img/:name", (req, res) => {
-    return res.sendFile(path.join(process.cwd() + "/public/img/" + req.params.name + ".png"));
-});
+app.get("/projects", (req, res) => jsonReq(req, res, "projects.json"));
+app.get("/links", (req, res) => jsonReq(req, res, "links.json"));
+app.get("/img/:name", (req, res) => imgReq(req, res));
+app.get("/blog/:name", (req, res) => blogReq(req, res));
+app.get("/blog", (req, res) => blogListReq(req, res));
+app.get("/search/:searchQuery", (req, res) => searchReq(req, res));
 
 server.listen(process.env.PORT || 4000, () => console.log("Server is running..."));

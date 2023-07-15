@@ -1,0 +1,66 @@
+---
+title: Data Structures in Python 📚
+name: data_structs
+date: 2023-06-20
+author: {name: Chat-GPT3, url: https://chat.openai.com}
+description: "This article provides an overview of data structures in Python. It focuses on two main structures: arrays and linked lists. Arrays are collections of elements of the same type and can be easily declared and initialized in Python."
+images: [{url: https://meapi.fly.dev/img/data-structures-1.png, size: [640, 482], alt: Linked List}]
+topics: ['python', 'data-structures']
+---
+# Data Structures in Python 📚
+## Arrays 🏹
+Arrays in Python are similar to lists, which are a collection of elements of the same or different types. In Python, arrays are dynamically sized and can hold elements of any type. They can be declared and initialized as follows:
+
+```python
+
+array = [1, 2, 3, 4, 5]
+
+```
+The above code declares an array with five elements containing integers. The elements in the array can be accessed using their indices, starting from 0. For example, to access the first element:
+
+```python
+
+first_element = array[0]
+
+```
+## Linked Lists 📜
+Linked lists are a fundamental data structure in computer science. However, unlike arrays, Python does not have a built-in linked list data structure. Nonetheless, you can implement linked lists using classes and objects in Python. Here's an example of a simple linked list implementation:
+
+```python
+
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+class LinkedList:
+    def __init__(self):
+        self.head = None
+
+```
+In the above code, we define a Node class representing a node in the linked list and a LinkedList class representing the linked list itself. Each node has a data attribute to store the value and a next attribute to point to the next node in the list. The LinkedList class has a head attribute, which points to the first node in the list.
+
+To create a linked list and add elements to it, you can use the following code:
+
+```python
+
+# Create an empty linked list
+linked_list = LinkedList()
+
+# Add elements to the linked list
+linked_list.head = Node(1)
+second_node = Node(2)
+third_node = Node(3)
+
+linked_list.head.next = second_node
+second_node.next = third_node
+
+```
+This code creates a linked list with three nodes containing the values 1, 2, and 3, respectively. The head attribute of the linked list points to the first node, and each node's next attribute points to the next node in the list.
+
+Please note that this is a basic implementation, and you can add more methods to the LinkedList class to perform various operations on the linked list, such as inserting, deleting, or searching for elements.
+
+![Linked List](https://meapi.fly.dev/img/data-structures-1.png)
+
+## Conclusion 📝
+Python provides various built-in and library-supported data structures, such as arrays and lists, to store and manipulate data efficiently. Additionally, you can implement more advanced data structures, like linked lists, using classes and objects. Understanding different data structures and their characteristics is crucial for writing efficient and optimized code in Python.

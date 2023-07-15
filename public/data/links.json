@@ -1,18 +1,18 @@
-{
-    "link_1": {
-        "name": "me",
+[
+    {
+        "name": "Me 🦆",
         "url": "https://lipez.studio"
     },
-    "link_2": {
-        "name": "google dev profile",
+    {
+        "name": "Google dev profile 🤖",
         "url": "https://g.dev/lipez_47"
     },
-    "link_6": {
-        "name": "linkedin",
+    {
+        "name": "Linkedin 💻",
         "url": "https://www.linkedin.com/in/juanlipez"
     },
-    "link_7": {
-        "name": "fiverr",
+    {
+        "name": "Fiverr (I make illustrations 🖍️)",
         "url": "https://es.fiverr.com/lipez47"
     }
-}
+]

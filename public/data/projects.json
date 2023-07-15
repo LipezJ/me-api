@@ -1,5 +1,5 @@
-{
-    "project_1": {
+[
+    {
         "name": "socket-server",
         "description": "Socket server to handle functions and data on both server and client.",
         "languages": [
@@ -10,7 +10,7 @@
         },
         "image": "https://meapi.fly.dev/img/socket-server"
     },
-    "project_2": {
+    {
         "name": "chat-online",
         "description": "Chat online with socket.io.",
         "languages": [
@@ -23,7 +23,7 @@
         },
         "image":"https://meapi.fly.dev/img/chat-online"
     },
-    "project_3": {
+    {
         "name": "jv",
         "description": "Compile and run java with a single line.",
         "languages": [
@@ -34,7 +34,7 @@
         },
         "image": "https://meapi.fly.dev/img/jv"
     },
-    "project_4": {
+    {
         "name": "pong-online",
         "description": "Pong multiplayer on the terminal.",
         "languages": [
@@ -47,15 +47,16 @@
         },
         "image":"https://meapi.fly.dev/img/pong-online"
     },
-    "project_5": {
+    {
         "name": "pong",
         "description": "Pong game in a terminal.",
         "languages": [
-            "python"
+            "python",
+            "c"
         ],
         "links": {
             "repo": "https://github.com/LipezJ/pong"
         },
         "image":"https://meapi.fly.dev/img/pong"
     }
-}
+]
