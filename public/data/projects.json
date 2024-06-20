@@ -8,7 +8,7 @@
         "links": {
             "repo": "https://github.com/LipezJ/socket-server"
         },
-        "image": "https://meapi.fly.dev/img/socket-server"
+        "image": "https://me-api-twwr.onrender.com/img/socket-server"
     },
     {
         "name": "chat-online",
@@ -21,7 +21,7 @@
             "api": "https://github.com/LipezJ/chat-interface",
             "page": "https://chat.lipez.studio"
         },
-        "image":"https://meapi.fly.dev/img/chat-online"
+        "image":"https://me-api-twwr.onrender.com/img/chat-online"
     },
     {
         "name": "jv",
@@ -32,7 +32,7 @@
         "links": {
             "repo": "https://github.com/LipezJ/jv"
         },
-        "image": "https://meapi.fly.dev/img/jv"
+        "image": "https://me-api-twwr.onrender.com/img/jv"
     },
     {
         "name": "pong-online",
@@ -45,7 +45,7 @@
             "repo": "https://github.com/LipezJ/pong-online",
             "api": "https://github.com/LipezJ/ApiPong"
         },
-        "image":"https://meapi.fly.dev/img/pong-online"
+        "image":"https://me-api-twwr.onrender.com/img/pong-online"
     },
     {
         "name": "pong",
@@ -57,6 +57,6 @@
         "links": {
             "repo": "https://github.com/LipezJ/pong"
         },
-        "image":"https://meapi.fly.dev/img/pong"
+        "image":"https://me-api-twwr.onrender.com/img/pong"
     }
 ]
